@@ -190,6 +190,9 @@ color:#424242;
 .task a{
   color: #FFD700;
 }
+.task a:hover{
+  color: rgb(255, 180, 0);
+}
 /* footer */
 
 .footer {
