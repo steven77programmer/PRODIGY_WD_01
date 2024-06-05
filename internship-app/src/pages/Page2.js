@@ -4,6 +4,7 @@ import React from 'react';
 import Title from '../components/Title';
 // import Main from '../components/Main'
 import Footer from '../components/Footer';
+import Stopwatch from '../components/Stopwatch';
 
 
 
@@ -11,8 +12,9 @@ function Page2() {
   return (
     <div className="App">
      {/* <Header/> */}
-     <Title title="Stopwatch Web Application"/>
+     {/* <Title title="Stopwatch Web Application"/> */}
      {/* <Main /> */}
+     <Stopwatch/>
      <Footer/>
     </div>
   );
