@@ -1,0 +1,369 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+
+section {
+ 
+  padding: 30px 20px;
+  /* background-color: #F5F5F5;  */
+  background: linear-gradient(303deg, #f5f5f5, #bcc6ce, #f5f5f5, #bcc6ce, #f5f5f5);
+
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:27% 0%}
+  50%{background-position:74% 100%}
+  100%{background-position:27% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:27% 0%}
+  50%{background-position:74% 100%}
+  100%{background-position:27% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:27% 0%}
+  50%{background-position:74% 100%}
+  100%{background-position:27% 0%}
+}
+
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+  color: #003366; /* Navy Blue */
+  position: relative;
+}
+
+h1 {
+  animation: fadeInDown 1s ease-in-out;
+}
+
+h2 {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 
+nav */
+
+.pnav {
+  background-color: #094e93; /* Navy Blue */
+  color: #FFFFFF; /* White */
+  padding: 2% 4%;
+  margin-top: 14%;
+text-align: center;
+
+}
+
+.pnav h1 {
+  display: inline;
+  color: #FFD700; /* Gold */
+  margin-bottom: 2%;
+}
+
+.pnav ul {
+  display: inline;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pnav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.pnav ul li a {
+  color: #FFFFFF; /* White */
+  text-decoration: none;
+}
+
+.pnav ul li a:hover {
+  color: #FFD700; /* Gold */
+}
+
+/* 
+home */
+.home-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #003366; /* Navy Blue */
+}
+
+.home-container p {
+  font-size: 1.15em;
+  margin-bottom: 20px;
+  color: #424242; /* Dark Gray */
+}
+
+.home-container img {
+  width: clamp(150px,50%,250px);
+  height: clamp(150px,10%,250px);
+  border-radius: 50%;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.skills, .certifications, .projects {
+  margin-top: 30px;
+  animation: fadeIn 2s ease-in-out;
+  background-color: #FFFFFF;
+  width: clamp(350px,100%,800px);
+  padding:0px 10px;
+}
+
+.skills h2, .certifications h2, .projects h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #003366; /* Navy Blue */
+}
+
+.skills ul, .certifications ul, .projects ul {
+  list-style: none;
+  padding: 0;
+  padding-bottom: 20px;
+  
+}
+.skills ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:10%;
+  justify-content: center;
+}
+.skills ul li, .certifications ul li, .projects ul li {
+  font-size: 1.1em;
+  margin: 1% 0;
+  color: #424242; /* Dark Gray */
+}
+
+.projects h2{
+  margin-top:4%;
+  margin-bottom:-3%;
+}
+
+.projects ul li h3 {
+  font-size: 1.3em;
+  margin-top: 5%;
+  color: #003366; /* Navy Blue */
+}
+
+.projects ul li p {
+  margin: 0 0 10px;
+  color: #424242; /* Dark Gray */
+}
+
+.projects ul li a {
+  color: #003366; /* Navy Blue */
+  text-decoration: none;
+}
+
+.projects ul li a:hover {
+  color: #FFD700; /* Gold */
+  text-decoration: underline;
+}
+
+/* 
+about */
+
+.about-container {
+  max-width: clamp(350px,100%,800px);
+  margin: 0 auto;
+  text-align: left;
+  background-color: #FFFFFF; /* White */
+  padding: 20px;
+  border-radius: 10px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.about-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #003366; /* Navy Blue */
+}
+
+.about-container p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #424242; /* Dark Gray */
+}
+.about-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-header h2 {
+  font-size: 2.5em;
+  width:fit-content;
+  margin-right: 20px;
+  color: #003366; /* Navy Blue */
+}
+
+
+.hi-boy-gif {
+  flex-shrink: 0;
+}
+
+.hi-boy-gif img {
+  width: 60px; /* Adjust size as needed */
+  height: auto;
+}
+
+/* .hi-boy-gif {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.hi-boy-gif img {
+  width: 150px;
+  height: auto;
+  animation: waveHi 1s infinite;
+} 
+
+@keyframes waveHi {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(15deg); }
+  100% { transform: rotate(0deg); }
+}
+*/
+
+.hobbies, .contact {
+  margin-top: 30px;
+}
+
+.hobbies h3, .contact h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #003366; /* Navy Blue */
+}
+
+.hobbies ul, .contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hobbies ul li, .contact ul li {
+  font-size: 1.2em;
+  margin: 5px 0;
+  color: #424242; /* Dark Gray */
+}
+
+.contact ul li a {
+  color: #003366; /* Navy Blue */
+  text-decoration: none;
+}
+
+.contact ul li a:hover {
+  color: #FFD700; /* Gold */
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 345px) {
+  #root {
+    width: 105%;
+  }
+   .contact ul li,.projects ul li p  {
+    font-size: 1em;
+  }
+
+  
+}
+
+/* 
+scroll css */
+.scroll-progress {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 1000;
+ 
+  background: conic-gradient(#FFD700 0%, #003366 0%);
+}
+
+.progress-value {
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  background:  #003366;
+}
+
+.progress-value::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: inherit;
+  z-index: -1;
+}
+
+.progress-value .fa-arrow-up {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
