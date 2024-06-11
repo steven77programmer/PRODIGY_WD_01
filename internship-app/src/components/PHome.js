@@ -10,7 +10,7 @@ const Home = () => {
       <div className="home-container">
         <h1>Welcome to My Portfolio</h1>
         <p>Web Developer | Programmer</p>
-        <img src="../images/stevefimg.jpg" alt="Steven Thomas" />
+        <img src={`${process.env.PUBLIC_URL}/images/stevefimg.jpg`} alt="Steven Thomas" />
 
         <div className="skills">
           <h2><FontAwesomeIcon icon={faLaptopCode} /> Skills</h2>
