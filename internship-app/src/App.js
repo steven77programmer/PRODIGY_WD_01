@@ -12,7 +12,7 @@ import Page5 from './pages/Page5';
 import NotFound from './pages/NotFound';
 
 import './App.css';
-
+// active navbar routing redirect remove console log
 function App() {
   return (
     <div className="App">

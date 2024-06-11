@@ -17,7 +17,7 @@ const Weather = () => {
     setError(null);
     setWeatherData(null);
     try {
-      const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${query}`;
+      const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${query}`;
       const response = await axios.get(url);
       setWeatherData(response.data);
       console.log(weatherData)
