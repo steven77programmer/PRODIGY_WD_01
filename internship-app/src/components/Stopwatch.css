@@ -11,19 +11,21 @@
    
      background-size: 1000% 1000%;
    
-     -webkit-animation: AnimationName 30s ease infinite;
-     -moz-animation: AnimationName 30s ease infinite;
-     animation: AnimationName 30s ease infinite;
-     padding: 5% 2%;
+     -webkit-animation: greygradi 30s ease infinite;
+     -moz-animation: greygradi 30s ease infinite;
+     animation: greygradi 30s ease infinite;
+     padding: 7% 2% 5% 2%;
      gap:10px;
+     /* margin-top:clamp(500px,17%,600px); */
      margin-top:15%;
+    
      
    }
    @media (max-width: 485px) {
     /* hero */
     .container{
       /* padding: 10% 2%; */
-      margin-top:30%;
+      margin-top: 33%;
     }
   }
    .container h1 {
@@ -97,17 +99,17 @@
    }
    
    
-   @-webkit-keyframes AnimationName {
+   @-webkit-keyframes greygradi {
      0%{background-position:27% 0%}
      50%{background-position:74% 100%}
      100%{background-position:27% 0%}
    }
-   @-moz-keyframes AnimationName {
+   @-moz-keyframes greygradi {
      0%{background-position:27% 0%}
      50%{background-position:74% 100%}
      100%{background-position:27% 0%}
    }
-   @keyframes AnimationName {
+   @keyframes greygradi {
      0%{background-position:27% 0%}
      50%{background-position:74% 100%}
      100%{background-position:27% 0%}
@@ -186,6 +188,7 @@
      cursor: pointer;
      border-radius: 50%;
      color:black;
+     margin-top: -10%;
      /* background: none; */
      background-color: rgba(234, 240, 255, 0.7);
      box-shadow: 1px 0px 10px rgb(128, 126, 126);

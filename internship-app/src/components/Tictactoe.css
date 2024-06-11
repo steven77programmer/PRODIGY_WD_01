@@ -20,9 +20,9 @@ Complementary Color: White (#FFFFFF)
   
     background-size: 1000% 1000%;
   
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;  
+    -webkit-animation: greygradi 30s ease infinite;
+    -moz-animation: greygradi 30s ease infinite;
+    animation: greygradi 30s ease infinite;  
     align-content: center;
     text-align: center;
     justify-content: center;
@@ -60,9 +60,9 @@ Complementary Color: White (#FFFFFF)
   
     background-size: 1000% 1000%;
   
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+    -webkit-animation: greygradi 30s ease infinite;
+    -moz-animation: greygradi 30s ease infinite;
+    animation: greygradi 30s ease infinite;
   }
   
   @media (max-width: 485px) {
@@ -155,17 +155,17 @@ Complementary Color: White (#FFFFFF)
   }
   
   
-  @-webkit-keyframes AnimationName {
+  @-webkit-keyframes greygradi {
     0%{background-position:27% 0%}
     50%{background-position:74% 100%}
     100%{background-position:27% 0%}
   }
-  @-moz-keyframes AnimationName {
+  @-moz-keyframes greygradi {
     0%{background-position:27% 0%}
     50%{background-position:74% 100%}
     100%{background-position:27% 0%}
   }
-  @keyframes AnimationName {
+  @keyframes greygradi {
     0%{background-position:27% 0%}
     50%{background-position:74% 100%}
     100%{background-position:27% 0%}

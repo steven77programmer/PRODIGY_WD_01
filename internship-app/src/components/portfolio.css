@@ -9,22 +9,22 @@ section {
 
   background-size: 1000% 1000%;
 
-  -webkit-animation: AnimationName 30s ease infinite;
-  -moz-animation: AnimationName 30s ease infinite;
-  animation: AnimationName 30s ease infinite;
+  -webkit-animation: greygradi 30s ease infinite;
+  -moz-animation: greygradi 30s ease infinite;
+  animation: greygradi 30s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes greygradi {
   0%{background-position:27% 0%}
   50%{background-position:74% 100%}
   100%{background-position:27% 0%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes greygradi {
   0%{background-position:27% 0%}
   50%{background-position:74% 100%}
   100%{background-position:27% 0%}
 }
-@keyframes AnimationName {
+@keyframes greygradi {
   0%{background-position:27% 0%}
   50%{background-position:74% 100%}
   100%{background-position:27% 0%}
@@ -72,10 +72,10 @@ nav */
 .pnav {
   background-color: #094e93; /* Navy Blue */
   color: #FFFFFF; /* White */
-  padding: 2% 4%;
-  margin-top: 14%;
+  padding: 5% 1% 1% 1%;
+  margin-top: clamp(120px,14%,400px);
 text-align: center;
-
+height: 10vh;
 }
 
 .pnav h1 {
@@ -311,7 +311,7 @@ about */
 
 @media (max-width: 345px) {
   #root {
-    width: 105%;
+    width: 107%;
   }
    .contact ul li,.projects ul li p  {
     font-size: 1em;
