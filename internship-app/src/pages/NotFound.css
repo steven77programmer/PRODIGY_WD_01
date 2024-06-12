@@ -1,32 +1,55 @@
 .notfound-container {
+  margin-top: 18%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     text-align: center;
-    background-color: #000; /* Black background */
-    color: #FFF; /* White text */
+    background: linear-gradient(303deg, #f5f5f5, #bcc6ce, #f5f5f5, #bcc6ce, #f5f5f5);
+
+  background-size: 1000% 1000%;
+
+  -webkit-animation: greygradi 30s ease infinite;
+  -moz-animation: greygradi 30s ease infinite;
+  animation: greygradi 30s ease infinite;
+    color: #003366; /* White text */
     font-family: 'Arial', sans-serif; /* Or your preferred modern font */
+  }
+
+  @-webkit-keyframes greygradi {
+    0%{background-position:27% 0%}
+    50%{background-position:74% 100%}
+    100%{background-position:27% 0%}
+  }
+  @-moz-keyframes greygradi {
+    0%{background-position:27% 0%}
+    50%{background-position:74% 100%}
+    100%{background-position:27% 0%}
+  }
+  @keyframes greygradi {
+    0%{background-position:27% 0%}
+    50%{background-position:74% 100%}
+    100%{background-position:27% 0%}
   }
   
   .notfound-title {
     font-size: 6rem;
-    color: #FFD700; /* Golden color */
+    color: #003366; /* Golden color */
     margin: 0;
   }
   
   .notfound-message {
     font-size: 1.5rem;
-    color: #1E90FF; /* Blue color */
+    color: #424242; /* Blue color */
   }
   
   .notfound-link {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1.2rem;
-    color: #FFF;
-    background-color: #1E90FF; /* Blue background */
+    color: #424242;
+    background-color: #f2f2f2; /* Blue background */
     border: none;
     border-radius: 5px;
     text-decoration: none;

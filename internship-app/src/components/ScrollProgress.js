@@ -9,7 +9,7 @@ const ScrollProgress = () => {
   const handleScroll = () => {
     const pos = window.pageYOffset;
     const calcHeight = document.documentElement.scrollHeight - window.innerHeight;    const scrollValue = Math.round((pos * 100) / calcHeight);
-    console.log(calcHeight)
+    //console.log(calcHeight)
     setScrollValue(scrollValue);
   };
 

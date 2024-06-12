@@ -12,7 +12,7 @@ import Page5 from './pages/Page5';
 import NotFound from './pages/NotFound';
 
 import './App.css';
-// active navbar routing redirect remove console log
+// 
 function App() {
   return (
     <div className="App">
@@ -32,7 +32,7 @@ function App() {
       <Route path="/Page5"  element={<Page5/>} />
       <Route path="/PRODIGY_WD_01" element={<Page1/>} />
         {/* Catch-all route for undefined routes */}
-        <Route path="/404" element={<NotFound/>} />
+        <Route path="*" element={<NotFound/>} />
         {/* <Redirect to="/404" /> */}
       </Routes>
      </Router>

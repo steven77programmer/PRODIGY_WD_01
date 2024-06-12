@@ -20,7 +20,7 @@ const Weather = () => {
       const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${query}`;
       const response = await axios.get(url);
       setWeatherData(response.data);
-      console.log(weatherData)
+      //console.log(weatherData)
       setCity(response.data.location.name);
       setLoading(false);
     } catch (error) {

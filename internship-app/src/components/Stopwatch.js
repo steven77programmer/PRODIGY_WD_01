@@ -35,7 +35,7 @@ React.useEffect(() => {
 }, [isPause]);
 
 function startTimer(){
-    console.log("timer has start");
+    //console.log("timer has start");
     // const now=  Date.now();
    
     
@@ -44,7 +44,7 @@ function startTimer(){
    // setHasStarted(true); 
 }
 function pauseTimer(){
-    console.log("timer has paused");
+    //console.log("timer has paused");
     setIsPause(true);
     
 }
@@ -54,7 +54,7 @@ function pauseTimer(){
     
 // }
 function resetTimer(){
-    console.log("timer has reset");
+   // console.log("timer has reset");
     setIsPause(true);
     setTimer(0);
     setLaptime([]);
@@ -63,7 +63,7 @@ function resetTimer(){
     
 }
 function lapping(){
-    console.log("timer saved lap time");
+   // console.log("timer saved lap time");
     //setLaptime(prevLaptime => [...prevLaptime, timer]);
     const newLapTime = timer - (laptime.reduce((acc, cur) => acc + cur, 0)); // Calculate the difference from the last lap
     setLaptime(prevLaptime => [...prevLaptime, newLapTime]);
