@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PRODIGY_WD_01/static/css/main.ab81e5c4.css",
-    "main.js": "/PRODIGY_WD_01/static/js/main.5b000527.js",
+    "main.css": "/PRODIGY_WD_01/static/css/main.34d598d5.css",
+    "main.js": "/PRODIGY_WD_01/static/js/main.314f33d1.js",
     "static/js/453.f4536c62.chunk.js": "/PRODIGY_WD_01/static/js/453.f4536c62.chunk.js",
     "static/media/hiboy.gif": "/PRODIGY_WD_01/static/media/hiboy.d19ca03cff95ebcf8a72.gif",
     "index.html": "/PRODIGY_WD_01/index.html",
-    "main.ab81e5c4.css.map": "/PRODIGY_WD_01/static/css/main.ab81e5c4.css.map",
-    "main.5b000527.js.map": "/PRODIGY_WD_01/static/js/main.5b000527.js.map",
+    "main.34d598d5.css.map": "/PRODIGY_WD_01/static/css/main.34d598d5.css.map",
+    "main.314f33d1.js.map": "/PRODIGY_WD_01/static/js/main.314f33d1.js.map",
     "453.f4536c62.chunk.js.map": "/PRODIGY_WD_01/static/js/453.f4536c62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab81e5c4.css",
-    "static/js/main.5b000527.js"
+    "static/css/main.34d598d5.css",
+    "static/js/main.314f33d1.js"
   ]
 }
